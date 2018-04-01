@@ -2,7 +2,7 @@
 <h1 align="center">
   <a href="http://standardjs.com"><img src="https://avatars1.githubusercontent.com/u/17859884?v=3&s=200" alt="JavaScript Style Guide - JavaScript Standard Style" width="200"></a>
   <br>
-  GPS Style Guide
+  GPS Style Guide - RENAME TO GUIDE
   <br>
   <br>
 </h1>
@@ -17,25 +17,20 @@
 
 
 
-
-
-
 ## Table of Contents
 
-- [Intro](#intro)
-	- [Variables](#variables-speech_balloon)
-	- [Constants](#constants-triangular_flag_on_post)
-    - [Globals](#globals-earth_africa)
-- [Style](#style)
+- [Intro](#intro) GETTING STARTED
+- [Approach](#approach)
+- [Style](#style) REWORD TO MAKE MORE OBIVOUS
 - [Common Mistakes](#common-mistakes)
 - [Tools](#tools)
-- [Versions](#versions)
-- [Blogs](#blogs)
-- [Github](#github)
-- [More Resources](#resources)
+- [Versions](#versions) - WORK ENV Versions
+- [Blogs](#blogs) RESOURECS > RECOMMEND
+- [Github](#github) STARTER
+- [More Resources](#resources) - BETTER NAMING
 - [Bootcamps](#bootcamps)
 - [Courses](#courses)
-- [Mentee](#mentee)
+- [Mentee](#mentee) - MENTORS
 - [Contribute](#contribute)
 - [Future](#Future)
 - [License](#License)
@@ -1855,49 +1850,103 @@ Description of the section
 ### Mean Stack Style
 ### Angular Style
 ### Express Style
+### Markdown Style
+
+* Headers
+* Emphasis
+* Lists
+* Links - these 
+* Images
+* Code
+* Tables
+* Block Quotes
+* Inline HTML
+* Horizontal Rules
+* Line Breaks
+* Video Embedding
+
 
 
 
 ## Common Mistakes
+
+* Not using development tools
+* Blocking the event loop
+* Executing a callback multiple times
+* The Christmas tree of callbacks (Callback Hell)
+* Creating big monolithic applications
+* Poor logging
+* No tests
+* Not using static analysis tools
+* Zero monitoring or profiling
+* Debugging with console.log
+
 ## Tools
+
+### Text Editors
+[Sublime 3](https://www.sublimetext.com/3)
+or
+[Atom](https://atom.io/)
+
+### Markdown
+### Mongo View
+### Debugs
+### Other tools
+
 ## Installs & Versions
+
+| Framework/Library/Program  |Version  |
+|---------------|----------------|
+| Angular   |   1.X   |
+| JQuery  |   3.X   |
+| NodeJs  |   6.X   |
+| Centos  |   7   |
+| NodeJs  |   6.X   |
+
+
 ## Blogs
+
+This section is devoted to blogs that just talk about and have alot of great content. Please reach out and  contact me if you think i should have yours in here.
+
+* simpleprogrammer
+* https://blog.risingstack.com/
+* https://www.codementor.io
+* https://toddmotto.com/
+* https://scotch.io/
+* https://davidwalsh.name/
+* http://dailyjs.com/
+* https://www.sitepoint.com/javascript/
+* https://www.javascript.com/
+* http://blog.teamtreehouse.com/
+* http://www.nearform.com/nodecrunch/
+
 ## Github
+coming soon
+
 ## More Resources
+coming soon
+
 ## Bootcamps
+coming soon
+
 ## Courses
+coming soon
+
 ## Mentee
+coming soon
+
 ## Contribute
+coming soon
+
 ## Future
+coming soon
+
 ## License
+coming soon
 
 
 
-
--
--
--
---
--
--
--
--
--
--
--
-
-
-## Table of Contents
-
-- [Control Flow](#control-flow)
-- [Mongodb](#mongodb)
-- [Mongoose](#mongoose)
-- [ExpressJS Style](#expressjs-style)
-- [Versions](#versions)
-- [Text Editor](#text-editor)
-- [Install Tools](#install-tools)
-- [Javascript Style](#javascript-style)
-- [Angular Style](#angular-style)
+## Old VERSION BELOW
 
 ## Control Flow
 
@@ -2071,328 +2120,30 @@ app.listen(8888);
 [Api Options](https://github.com/chriso/validator.js/blob/master/README.md)
 
 
-### [validator](https://npmjs.org/package/validator)
+#### [Validator](https://npmjs.org/package/validator)
 
-#### Installation
+##### Installation
 
 ```
 npm install validator --save
 ```
 
-#### Usage
+##### Usage
 ```javascript
 var validator = require('validator');
 
 validator.isEmail('foo@bar.com'); //=> true
 ```
-#### Options
+##### Options
 [Api Options](https://github.com/chriso/validator.js/blob/master/README.md)
 
-## Versions
+### Versions
 
-| Framework/Library/Program  |Version  |
-|---------------|----------------|
-| Angular   |   1.X   |
-| JQuery  |   3.X   |
-| NodeJs  |   6.X   |
-| Centos  |   7   |
-| NodeJs  |   6.X   |
+
 
 ## Text Editor
 
-[Sublime 3](https://www.sublimetext.com/3)
-or
-[Atom](https://atom.io/)
-
-## Install Tools
 
 
-### StandardJs
-
-#### [Sublime Text](https://www.sublimetext.com/)
-
-Using **[Package Control][sublime-1]**, install **[SublimeLinter][sublime-2]** and
-**[SublimeLinter-contrib-standard][sublime-3]**.
-
-For automatic formatting on save, install **[StandardFormat][sublime-4]**.
-
-[sublime-1]: https://packagecontrol.io/
-[sublime-2]: http://www.sublimelinter.com/en/latest/
-[sublime-3]: https://packagecontrol.io/packages/SublimeLinter-contrib-standard
-[sublime-4]: https://packagecontrol.io/packages/StandardFormat
-
-#### [Atom](https://atom.io)
-
-Install **[linter-js-standard][atom-1]**.
-
-For automatic formatting, install **[standard-formatter][atom-2]**. For snippets,
-install **[standardjs-snippets][atom-3]**.
-
-[atom-1]: https://atom.io/packages/linter-js-standard
-[atom-2]: https://atom.io/packages/standard-formatter
-[atom-3]: https://atom.io/packages/standardjs-snippets
-
-## Javascript Style
-
-[Standard JS](https://github.com/feross/standard)
-
-No decisions to make. No `.eslintrc`, `.jshintrc`, or `.jscsrc` files to manage. It just
-works.
-
-This module saves you (and others!) time in two ways:
-
-- **No configuration.** The easiest way to enforce consistent style in your
-  project. Just drop it in.
-- **Catch style errors before they're submitted in PRs.** Saves precious code
-  review time by eliminating back-and-forth between maintainer and contributor.
-
-Install with:
-
-```
-npm install standard
-```
-
-### The Rules
-
-- **2 spaces** – for indentation
-- **Single quotes for strings** – except to avoid escaping
-- **No unused variables** – this one catches *tons* of bugs!
-- **No semicolons** – [It's][1] [fine.][2] [Really!][3]
-- **Never start a line with `(`, `[`, or `` ` ``**
-  - This is the **only** gotcha with omitting semicolons – *automatically checked for you!*
-  - [More details][4]
-- **Space after keywords** `if (condition) { ... }`
-- **Space after function name** `function name (arg) { ... }`
-- Always use `===` instead of `==` – but `obj == null` is allowed to check `null || undefined`.
-- Always handle the node.js `err` function parameter
-- Always prefix browser globals with `window` – except `document` and `navigator` are okay
-  - Prevents accidental use of poorly-named browser globals like `open`, `length`,
-    `event`, and `name`.
-- **And [more goodness][5]** – *give `standard` a try today!*
-
-[1]: http://blog.izs.me/post/2353458699/an-open-letter-to-javascript-leaders-regarding
-[2]: http://inimino.org/~inimino/blog/javascript_semicolons
-[3]: https://www.youtube.com/watch?v=gsfbh17Ax9I
-[4]: RULES.md#semicolons
-[5]: RULES.md#javascript-standard-style
-
-To get a better idea, take a look at
-[a sample file](https://github.com/feross/bittorrent-dht/blob/master/client.js) written
-in JavaScript Standard Style, or check out some of
-[the repositories](https://github.com/feross/standard-packages/blob/master/all.json) that use
-`standard`.
-
-The easiest way to use JavaScript Standard Style to check your code is to install
-it globally as a Node command line program. To do so, simply run the following
-command in your terminal (flag `-g` installs `standard` globally on your system,
-omit it if you want to install in the current working directory):
-
-
-```bash
-npm install standard --g
-```
-
-## Angular Style
-
-[John Papa's Style Guide](https://github.com/johnpapa/angular-styleguide/tree/master/a1)
-
-
-GPS Style Guide
-
-Intro
-About helping you learn what you like and dont like
-Be flexible to best the best dev possible
-You will like some o fwhat i say and not some of it
-Make it yours 
-Tips
-Dont trust the computer trust what happens - not what it is always saying
-Know what you dont know
-Build on the shoulders of Gaints - mentors
-Build , Learn , test, Refactor , repeat
-Mentor
-Common Mistakes
-https://www.airpair.com/node.js/posts/top-10-mistakes-node-developers-make#8-not-using-static-analysis-tools
-Blocking the event loop
-Executing a callback multiple times
-Callback Hell
-Creating big monolithic applications
-Poor logging
-No tests
-Not using static analysis tools
-Zero monitoring or profiling
-Debugging with console.log
-
-Tools
-Ref Setup Guide
-Ref Debug Guide
-Text Editor
-Javascript Style
-Control Flow
-Lodash
-Be Async
-When to Be Sync
-Promises
-Bind Call Apply
-Avoid polluting the global scope
-https://www.codementor.io/johnnyb/tutorials/javascript-best-practices-du107mvud
-Use Strict
-|| and &&
-Convert value types
-Variable declarations
-How to name properly
-Avoid global
-Good name example  - isLegalAge() not isoverEightteen
-https://github.com/IonicaBizau/code-style
-Let const var - https://www.codementor.io/johnnyb/tutorials/javascript-cheatsheet-fb54lz08k
-Iterating object and arrays
-Binary and Ternary operators
-Comments
-Use Slashes for comments - felexge
-https://www.codementor.io/johnnyb/tutorials/javascript-cheatsheet-fb54lz08k
-If
-Switch
-Primitive values
-Objects
-Arrays
-Access, add, remove, and update elements
-Iterating over Arrays
-Functions
-Constructors and Classes
-Async vs Sync
-What are callbacks?
-Promises
-Create and throw errors
-Error handling
-Try catch
-Incrementing/decrementing numbers
-Loops
-Regular expressions
-Useful Math functions and constants
-Dates
-Naming Conventions
-https://github.com/felixge/node-style-guide#use-slashes-for-comments
-Use lowerCamelCase for variables, properties and function names
-Use UpperCamelCase for class names & mongoose Models
-Use UPPERCASE for Constants
-
-Conditionals
-===
-Single Ternary
-descriptive conditions
-Functions
-Write small functions
-Return early from functions
-Name your closures
-No nested closures
-Method chaining
-Stay Away from
-object.freeze, Object.preventExtensions, Object.seal, with, eval
-Do not extend built-in prototypes
-Standard js
-Node JS Style
-Require dependencies up front
-Mongoose
-ExpressJS Style
-How to intregrate NPM modules
-Mean Stack Style
-Mongodb
-Mean Stack JS
-Competitors
-Meanstack.net
-Io
-Js
-Production
-Pm2
-Helmet
---max-old-space-size  ~15gb, that flags seems to raise the limit
-Development
-Nodemon
-
-Other Npm Packages
-Test 
-E2e
-Unit
-
-Angular Style
-John Papa
-Versions
-Blogs
-https://blog.risingstack.com/
-https://www.codementor.io
-https://toddmotto.com/
-https://scotch.io/
-https://davidwalsh.name/
-http://dailyjs.com/
-https://www.sitepoint.com/javascript/
-https://www.javascript.com/
-http://blog.teamtreehouse.com/
-http://www.nearform.com/nodecrunch/
-Github
-Commands
-Users
-Markdown -https://www.codementor.io/ianwang/tutorials/codementor-writing-tutorials-markdown-cheat-sheet-lmpdjdriw?utm_campaign=user-db&utm_source=tutorial&utm_medium=announcement&utm_term=lmpdjdriw&ref=user-db-tutorial-lmpdjdriw
-Headers
-Emphasis
-Lists
-Links
-Images
-Code
-Tables
-Block Quotes
-Inline HTML
-Horizontal Rules
-Line Breaks
-Video Embedding
-Other Style Guides
-Follow
-https://github.com/johnpapa/angular-styleguide
-http://standardjs.com/
-Other Great Ones
-https://github.com/airbnb/javascript
-https://github.com/IonicaBizau/code-style
-http://javascript.crockford.com/code.html
-https://github.com/RisingStack/node-style-guide
-http://caolanmcmahon.com/posts/nodejs_style_and_structure
-https://docs.npmjs.com/misc/coding-style
-http://anixir.com/minimal-node-express-style-guide/
-https://make.wordpress.org/core/handbook/best-practices/coding-standards/javascript/
-https://github.com/rwaldron/idiomatic.js
-https://github.com/toddmotto/angular-styleguide
-Code Quality Tools, Resources & References
-JavaScript Plugin for Sonar
-Plato
-jsPerf
-jsFiddle
-Codepen
-jsbin
-JavaScript Lint (JSL)
-jshint
-jslint
-eslint
-jscs
-jscodesniffer
-Editorconfig
-Hound
-
-Contribute
-Mentors
-Code Mentor
-Thinkful
-Bootcamps
-Thinkful
-Courses
-Tree House
-Code Academy
-Pluralsight
-Blogs
-Thinkful
-License
-Future
-Lint  - something loadable
-ES6-https://github.com/DrkSephy/es6-cheatsheet
-IDEA project - https://github.com/verekia/js-stack-from-scratch
-
-Buttons
-Paypal , support me on patreon, codementor
 
 
